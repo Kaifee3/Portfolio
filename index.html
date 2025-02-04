@@ -1,462 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title>Kaifee Azam Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Kaifee Azam Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+  <style>
+    /* Add your custom styles here */
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #000; /* Change this to match your design */
+      z-index: -1;
+    }
+    
+    
 
-    <link rel="stylesheet" href="css/aos.css">
+  </style>
+</head>
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <style>
-      /*======================================
-//--//-->   ABOUT
-======================================*/
-
-      .about-mf .box-shadow-full {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-      }
-
-      .about-mf .about-img {
-        margin-bottom: 2rem;
-      }
-
-      .about-mf .about-img img {
-        margin-left: 10px;
-      }
-
-      .skill-mf .progress {
-        /* background-color: #cde1f8; */
-        margin: 0.5rem 0 1.2rem;
-        border-radius: 0;
-        height: 0.7rem;
-      }
-
-      .skill-mf .progress .progress-bar {
-        height: 0.7rem;
-        background-color: #ffbd39;
-      }
-
-      /* Animation styles */
-      #typing-animation {
-        position: relative;
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        overflow: hidden;
-        white-space: nowrap;
-        animation: typing 3s steps(20, end) infinite;
-      }
-
-      #typing-animation:before {
-        content: "";
-        /* position: absolute; */
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        background-color: #ccc;
-        animation: typing-cursor 0.5s ease-in-out infinite;
-      }
-
-      @keyframes typing {
-        from {
-          width: 0;
-        }
-
-        to {
-          width: 100%;
-        }
-      }
-
-      @keyframes typing-cursor {
-        from {
-          width: 5px;
-        }
-
-        to {
-          width: 0;
-        }
-      }
-
-      /* project image zoom effect */
-
-      .zoom-effect {
-        overflow: hidden;
-        transition: transform 0.3s ease-out;
-      }
-
-      .zoom-effect:hover {
-        transform: scale(1.1);
-      }
-
-      @media screen and (orientation: portrait) {
-        body {
-          margin-left: 5%;
-          margin-right: 5%;
-        }
-
-        .order-md-last {
-          visibility: hidden;
-        }
-
-        .about-img img {
-          content: url("images/me.png");
-        }
-      }
-    </style>
-
-  </head>
-
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-      <div class="container">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
         <a class="navbar-brand" href="index.html">KAIFEE AZAM</a>
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span>
-          Menu
+            <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item">
-              <a href="#home-section" class="nav-link">
-                <span>Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-section" class="nav-link">
-                <span>About</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link">
-                <span>Resume</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link">
-                <span>Contact</span></a>
-            </li>
-            <li class="nav-item">
-              <a href="#send-message" class="nav-link">
-                <span>Message me</span></a>
-            </li>
-          </ul>
+            <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                <li class="nav-item"><a href="#send-message" class="nav-link"><span>Message me</span></a></li>
+            </ul>
         </div>
-      </div>
-    </nav>
-    <section id="home-section" class="hero">
-      <div class="home-slider  owl-carousel">
-        <div class="slider-item ">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-              <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/me.png);">
-                <div class="overlay"></div>
-              </div>
-              <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <div class="text">
-                  <span class="subheading">Hello!</span>
-                  <h1 class="mb-4 mt-3">I'm
-                    <span>KAIFEE AZAM</span></h1>
+    </div>
+</nav>
 
-                  <!-- Element to contain animated typing -->
-                  <span id="typing-animation"></span>
+<!-- Particles.js Container with inline CSS -->
+<div id="particles-js" style="position: absolute; width: 100%; height: 100vh; top: 0; left: 0; z-index: -1; background: #000000;"></div>
 
-                  <script>
-                    // Initialize the typing animation
-                    const typingAnimationElement = document.getElementById('typing-animation');
+<!-- Home Section -->
+<section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+        <div class="slider-item">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                    <div class="one-third js-fullheight order-md-last img" style=" position: absolute; top: 20%; right: 5%; width: 35%; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); z-index: 1;">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                        <div class="text" style="z-index: 2;">
+                            <span class="subheading">Hello!</span>
+                            <h1 class="mb-4 mt-3">I'm <span>KAIFEE AZAM</span></h1>
+                            <span id="typing-animation"></span>
+                            <script>
+                                const typingAnimationElement = document.getElementById('typing-animation');
+                                const typingTexts = ['WEB DEVELOPER'];
+                                function playTypingAnimation(text) {
+                                    for (let i = 0; i < text.length; i++) {
+                                        setTimeout(() => {
+                                            typingAnimationElement.textContent += text[i];
+                                        }, i * 100);
+                                    }
+                                    setTimeout(() => {
+                                        typingAnimationElement.textContent = '';
+                                        playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                    }, text.length * 100);
+                                }
+                                playTypingAnimation(typingTexts[0]);
+                            </script>
+                            <br><br>
+                            <p><a href="https://www.linkedin.com/in/kaifee-azam/" class="btn btn-white btn-outline-white py-3 px-4">My Linkedin</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    // Create an array of typing text
-                    const typingTexts = ['WEB DEVELOPMER '];
-
-                    // Create a function to display the typing animation for a given text
-                    function playTypingAnimation(text) {
-                      // Loop through each character and add it to the element
-                      for (let i = 0; i < text.length; i++) {
-                        setTimeout(() => {
-                          typingAnimationElement.textContent += text[i];
-                        }, i * 100); // Decreased delay to speed up the typing animation
-                      }
-
-                      // Once the animation is complete, reset the text and start over
-                      setTimeout(() => {
-                        typingAnimationElement.textContent = '';
-                        playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-                      }, text.length * 100); // Adjusted delay accordingly
+<!-- Load Particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 100,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 3,
+                "direction": "top",
+                "random": true,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
                     }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 4,
+                    "duration": 2,
+                    "opacity": 0.8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 100,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
 
-                    // Start the typing animation loop
-                    playTypingAnimation(typingTexts[0]);
-                  </script><br><br>
-                  <!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-                  <!-- <br> -->
-                  <p>
-                    <a href="https://www.linkedin.com/in/kaifee-azam/" class="btn btn-white btn-outline-white py-3 px-4">My Linkedin</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-      <div class="container">
-        <div class="row">
-          <div class="row d-flex align-items-stretch">
-            <!-- <div class="row d-flex"> -->
-            <div class="col-md-6 col-lg-5 d-flex">
-              <div class="img-about img d-flex align-items-stretch">
-                <div class="overlay">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <!-- Details next to profile image -->
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p>
-                          <span class="title-s">Name:
-                          </span>
-                          <span>Kaifee Azam</span></p>
-                        <p>
-                          <span class="title-s">Job Role:
-                          </span>
-                          <span>Web Developer</span></p>
-                        <p>
-                          <!-- <span class="title-s">Experience: </span> <span>5 Years 3 Months</span></p> <p> -->
-                          <span class="title-s">Address:
-                          </span>
-                          <span>Supaul, Bihar</span></p>
-                      </div>
+<!-- Custom Styles for Particles.js -->
+<style>
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+    }
+    .hero {
+        position: relative;
+        z-index: 2;
+    }
+</style>
+
+
+  <!-- About Section -->
+  <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="row d-flex align-items-stretch">
+          <div class="col-md-6 col-lg-5 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <div class="overlay">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
                     </div>
                   </div>
-
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <span>Java</span>
-                    <!-- <span class="pull-right">85%</span> -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span><span>Kaifee Azam</span></p>
+                      <p><span class="title-s">Job Role: </span><span>Web Developer</span></p>
+                      <p><span class="title-s">Address: </span><span>Supaul, Bihar</span></p>
                     </div>
-
-                    <span>React js</span>
-                    <!-- <span class="pull-right">95%</span> -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-
-                    <span>PHP</span>
-                    <!-- <span class="pull-right">85%</span> -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-
-                    <span>Nodejs</span>
-                    <!-- <span class="pull-right">99%</span> -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-
-                    <span>Javascript</span>
-                    <!-- <span class="pull-right">99%</span> -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-
-                    
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skills</p>
+                  <span>Java</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>React js</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>PHP</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>Nodejs</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>Javascript</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-              <div class="row justify-content-start pb-3">
-                <div class="col-md-12 heading-section ftco-animate">
-
-                  <h1 class="big">About</h1>
-                  <h2 class="mb-4">About Me</h2>
-
-                  <p>As a student pursuing a Bachelor's degree in Computer Science Engineering at Lovely Professional University, I am passionate about coding and have a good experience in Python programming. I have also completed a project in HTML, which has further enhanced my skills in web development.
-
-                    My proficiency in problem-solving and analysis has enabled me to perform support tasks efficiently. I have experience working in a team environment and believe in collaborating to deliver high-quality work. In December 2022, I led a team in developing a responsive grocery website using HTML, CSS, and Javascript.
-                    
-                    Furthermore, I am proud to have contributed to a group project that involved developing an engaging game using Python. The project was completed in December 2022 and allowed me to showcase my creativity and programming skills.
-                    
-                    I hold a certificate in time management and have completed various courses on programming languages such as Python, HTML, CSS, and JavaScript from Linkedin and HackerRank. These courses have provided me with a solid foundation in these languages and helped me keep up with the latest trends in web development.
-                    
-                    Apart from my academic pursuits, I enjoy playing cricket in my free time. I am fluent in English and Hindi, which allows me to communicate effectively with people from diverse backgrounds..</p>
-                  <ul class="about-info mt-4 px-md-0 px-2">
-                    <li class="d-flex">
-                      <span>Profile:</span>
-                      <span>Backend Developer &amp; Front-end Developer</span></li>
-                    <li class="d-flex">
-                      <span>Domain:</span>
-                      <span>Web Developement</span></li>
-                    <li class="d-flex">
-                      <span>Education:</span>
-                      <span>Bachelor of Technology (CSE)</span></li>
-                    <li class="d-flex">
-                      <span>Language:</span>
-                      <span>English, Hindi</span></li>
-                    <!-- <li class="d-flex"> <span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li> -->
-                    <li class="d-flex">
-                      <span>Other Skills:</span>
-                      <span>
-                        Creativity,Technical proficiency, Communication skills, Time management, Adaptability &amp;</span></li>
-                    <li class="d-flex">
-                      <span>Interest:</span>
-                      <span>Traveling, Circket</span></li>
-
-                  </ul>
-                </div>
+          </div>
+          <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+            <div class="row justify-content-start pb-3">
+              <div class="col-md-12 heading-section ftco-animate">
+                <h1 class="big">About</h1>
+                <h2 class="mb-4">About Me</h2>
+                <p>As a student pursuing a Bachelor's degree in Computer Science Engineering at Lovely Professional University, I am passionate about coding and have a good experience in Python programming. I have also completed a project in HTML, which has further enhanced my skills in web development.</p>
+                <ul class="about-info mt-4 px-md-0 px-2">
+                  <li class="d-flex"><span>Profile:</span><span>Backend Developer &amp; Front-end Developer</span></li>
+                  <li class="d-flex"><span>Domain:</span><span>Web Development</span></li>
+                  <li class="d-flex"><span>Education:</span><span>Bachelor of Technology (CSE)</span></li>
+                  <li class="d-flex"><span>Language:</span><span>English, Hindi</span></li>
+                  <li class="d-flex"><span>Other Skills:</span><span>Creativity, Technical proficiency, Communication skills, Time management, Adaptability</span></li>
+                  <li class="d-flex"><span>Interest:</span><span>Traveling, Cricket</span></li>
+                </ul>
               </div>
-
-              <div class="counter-wrap ftco-animate d-flex mt-md-3">
-                <div class="text">
-                  <!-- <p class="mb-4"> <span class="number" data-number="30">0</span> <span>+</span> <span>&nbsp; Projects completed</span> </p> -->
-                  <p>
-                    <a href="https://www.linkedin.com/in/kaifee-azam/" class="btn btn-primary py-3 px-3">LinkedIn</a>
-                  </p>
-                </div>
+            </div>
+            <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+                <p><a href="https://www.linkedin.com/in/kaifee-azam/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-      <div class="container">
-        <div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>
-              "As a skilled web developer proficient in HTML, CSS, JavaScript, and frameworks such as React and Angular, as well as programming languages like Java, C++, and Python, I excel in responsive design and website deployment. I am a collaborative team player, dedicated to creating user-friendly web solutions."</p>
-<!--           <div class="row justify-content-center mt-5">
-          <div class="col-md-6 text-center ftco-animate">
-            <p>
-              <a href="https://drive.google.com/file/d/1tAi7GClYw5UyHf63CQBe86nA9KbLWxzR/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a>
-            </p>
-          </div>
-        </div> -->
+  <!-- Resume Section -->
+  <section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Resume</h1>
+          <h2 class="mb-4">Resume</h2>
+          <p>"As a skilled web developer proficient in HTML, CSS, JavaScript, and frameworks such as React and Angular, as well as programming languages like Java, C++, and Python, I excel in responsive design and website deployment. I am a collaborative team player, dedicated to creating user-friendly web solutions."</p>
+        </div>
       </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <h1 class="big-4">Project</h1>
-          <div class="underline"></div>
-        </div>
-        <br>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="resume-wrap ftco-animate">
-              <span class="date">2022-2023</span><br>
-              <!-- <h2> Developer</h2> -->
-              <span class="position">Grocery Store</span>
-              <p class="mt-4">Developed a responsive grocery store website using HTML, CSS, and JavaScript, integrating features for easy navigation, product display, and checkout. Employed React for dynamic content and enhanced user experience. Collaborated with team to ensure functionality and usability.
-
-              </p>
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="resume-wrap ftco-animate">
-              <span class="date">2024-Present</span><br>
-             
-              <span class="position">Clothing website</span>
-              <p class="mt-4">Developed a responsive Clothing website using HTML, CSS, JavaScript, Nodejs, MongoDB. integrating features for easy navigation, product display, and checkout. Employed React for dynamic content and enhanced user experience. Collaborated with team to ensure functionality and usability.
-                
-              </p>
-            </div>
-
-          </div>
-        </div>
-
-        <br>
-        <br>
-
-        <div class="row">
-          <h1 class="big-4">Education</h1>
-          <div class="underline"></div>
-        </div>
-        <br>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="resume-wrap ftco-animate">
-              <span class="date">2022-2026</span>
-              <h2>Bachelor of Technology (CSE)</h2>
-              <span class="position">Lovely Professional University</span>
-              
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="resume-wrap ftco-animate">
-              <span class="date">2020-2022</span>
-              <h2>Higher Secondary</h2>
-              <span class="position">Holy Cross Public  School (Madhapura , Bihar)</span>
-              
-            </div>
-          </div>
-        </div>
-
+      <br>
+      
+      <div class="row">
+        <h1 class="big-4">Certificates</h1>
+        <div class="underline"></div>
+      </div>
+      <br>
+      <div class="row">
         <div class="col-md-6">
-            <div class="resume-wrap ftco-animate">
-              <span class="date">2019-2020</span>
-              <h2>Matriculation</h2>
-              <span class="position">Delhi Public School(Supaul ,  Bihar)</span>
-              
-            </div>
+          <div class="resume-wrap ftco-animate">
+            <span class="position">Full Stack Web Development - LinkedIn</span>
+            <p class="mt-4">Earned a Full Stack Development Certificate, mastering front-end and back-end technologies to build dynamic, responsive web applications. Proficient in HTML, CSS, JavaScript, React.js, PHP, and Node.js, with hands-on experience.</p>
           </div>
         </div>
-    <div class="row justify-content-center mt-5">
-          <div class="col-md-6 text-center ftco-animate">
-            <p>
-              <a href="https://drive.google.com/file/d/1tAi7GClYw5UyHf63CQBe86nA9KbLWxzR/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a>
-            </p>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="position">SQL Essential Training - LinkedIn</span>
+            <p class="mt-4">SQL Essential Training teaches the basics of using SQL to work with databases, including how to find, update, and manage data. It helps you learn to write simple queries and handle data effectively.</p>
           </div>
         </div>
       </div>
-          </div>
-        
-    </section>
-
-   
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="position">Programming Using Java - Cipher Schools</span>
+            <p class="mt-4">Covered comprehensive Java curriculum: basics, OOP, memory management, file handling, exceptions, and complexity analysis. Facilitated deeper understanding of complex topics such as inheritance, polymorphism, and algorithms through engaging discussions and practical examples.</p>
           </div>
         </div>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="position">Software Testing - NPTEL</span>
+            <p class="mt-4">Software Testing by NPTEL teaches the basics of finding and fixing bugs in software to make it work better. It helps you learn how to test programs and ensure they run smoothly without errors.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h1 class="big-4">Project</h1>
+        <div class="underline"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">September 2022 - January 2023</span><br>
+            <span class="position">Grocery Store</span>
+            <p class="mt-4">Developed a responsive grocery store website using HTML, CSS, and JavaScript, integrating features for easy navigation, product display, and checkout. Employed React for dynamic content and enhanced user experience. Collaborated with a team to ensure functionality and usability.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">June 2023 - July 2023</span><br>
+            <span class="position">Coffee Website</span>
+            <p class="mt-4">Developed a modern and responsive coffee shop website using React, JavaScript, and Tailwind CSS, featuring dynamic menu displays, online ordering, and location-based services. Implemented in-memory data storage for efficient order management and integrated a print receipt functionality for enhanced user experience. Focused on seamless UI/UX, performance optimization, and clean code practices.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">January 2024 - July 2024</span><br>
+            <span class="position">Clothing Website</span>
+            <p class="mt-4">Developed a responsive clothing website using HTML, CSS, JavaScript, Node.js, and MongoDB, integrating features for easy navigation, product display, and checkout. Employed React for dynamic content and enhanced user experience. Collaborated with a team to ensure functionality and usability.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">August 2024 - January 2025</span><br>
+            <span class="position">Coffee Website</span>
+            <p class="mt-4">Developed a modern and responsive coffee shop website using React, JavaScript, and Tailwind CSS, featuring dynamic menu displays, online ordering, and location-based services. Implemented in-memory data storage for efficient order management and integrated a print receipt functionality for enhanced user experience. Focused on seamless UI/UX, performance optimization, and clean code practices.</p>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <br>
+      <div class="row">
+        <h1 class="big-4">Education</h1>
+        <div class="underline"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2022-2026</span>
+            <h2>Bachelor of Technology (CSE)</h2>
+            <span class="position">Lovely Professional University</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2020-2022</span>
+            <h2>Intermediate</h2>
+            <span class="position">Holy Cross Public School (CBSE (PCM))</span>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center ftco-animate">
+          <p><a href="https://drive.google.com/file/d/1_LRaolrgL2F_hoXTUgaPEO9a4vWIt0cu/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <p>Below are the details to reach out to me!</p>
+        </div>
+      </div>
 
         <div class="row d-flex contact-info mb-5">
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -497,7 +466,7 @@
               </div>
               <h3 class="mb-4">Download Resume</h3>
               <p>
-                <a href="https://drive.google.com/file/d/1tAi7GClYw5UyHf63CQBe86nA9KbLWxzR/view?usp=drive_link">resumelink</a>
+                <a href="https://drive.google.com/file/d/1_LRaolrgL2F_hoXTUgaPEO9a4vWIt0cu/view?usp=drive_link">resumelink</a>
               </p>
             </div>
           </div>
