@@ -74,7 +74,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+  color: #FFFFFF;
+}
 
 abbr[title],
 abbr[data-original-title] {
@@ -8151,7 +8153,8 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #FFFFFF; 
+}
   body.menu-show {
     overflow: hidden;
     position: fixed;
